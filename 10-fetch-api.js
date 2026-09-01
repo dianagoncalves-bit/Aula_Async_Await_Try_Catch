@@ -10,7 +10,7 @@ async function buscarUsuario(id) {
         console.log("Usuario encontrado:");
         console.log("Nome: ", usuario.nome);
         console.log("E-mail: ", usuario.email);
-        console.log("Cidade: ", usuario.andress.city);
+        console.log("Cidade: ", usuario.adress.city);
     } catch (error) {
          console.log(error.message);
     }
